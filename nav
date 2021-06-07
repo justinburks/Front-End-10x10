@@ -317,5 +317,48 @@ header nav {
 
 
 </style>
+<script>
+const searchButton = document.querySelector('.searchIcon');
+const searchInput = document.querySelector('.searchInput');
+const searchArea = document.querySelector('.searchBar');
+const navBar = document.querySelector('.navBar');
+const profile = document.querySelector('.profileContainer');
+const profileNav = document.querySelector('.navBar2');
+const notifications = document.querySelector('.notifications');
+
+
+searchButton.addEventListener('mouseover', () => {
+    searchInput.classList.add('hover');
+});
+searchArea.addEventListener('mouseleave', () => {
+    searchInput.classList.remove('hover');
+});
+
+
+profile.addEventListener('mouseover', () => {     
+    profile.style.background = 'rgba(51, 51, 51, 0.3)';
+});
+profile.addEventListener('mouseleave', () => {
+    profile.style.background = 'rgba(51, 51, 51, 0.158)';
+});
+profile.addEventListener('click', () => {
+    profile.style.background = 'rgba(51, 51, 51, 0.3)';
+    profileNav.classList.toggle('active');
+});
+
+
+notifications.addEventListener('mouseover', () => {     
+    notifications.style.background = 'rgba(51, 51, 51, 0.3)';
+});
+notifications.addEventListener('mouseleave', () => {
+    notifications.style.background = 'rgba(51, 51, 51, 0.158)';
+});
+
+//BUGGY
+profileNav.addEventListener('mouseleave', () => {
+        profileNav.classList.toggle('active');
+});
+</script>
         <script src="Bnoice.js"></script>
+        
 </html>
