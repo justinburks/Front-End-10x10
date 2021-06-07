@@ -8,7 +8,7 @@ Solidify The Basic Knowledge & Skills Required For Production Level WebDevelopme
 
 Week One - Front-End - [HTML, CSS, VANILLA JAVASCRIPT]
 
-                                      # Front-End-10x10
+                                      # FRONT-END-10x10
                                       
  | NavBar | 
 
