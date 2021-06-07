@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bnoice</title>
+        <link rel="stylesheet" href="Bnoice.css">
+    </head>
+    <body>
+
+        <nav class="navBar">
+            <span class="logoContainer navButton"><img class="logo" src="/Users/jeeefff/Downloads/emoticon-square-smiling-face-with-closed-eyes.png"> </span>
+            B NOICE! :)
+            <div class="navigation">
+                
+            <div class="searchBar">
+            <span class="searchIcon"><img id="searchIcon"src="/Users/jeeefff/Downloads/magnifier.png" alt="search icon"></span>
+            <input class="searchInput" type="search" input="text">
+            </div>
+            <span class="notifications navButton"><img id="notifications" src="/Users/jeeefff/Downloads/bell.png" alt="bell logo"></span>
+            <span class="profileContainer navButton"><img id="profileContainer" class="profileLogo"src="/Users/jeeefff/Downloads/user-shape.png" alt="profile icon"></span>
+            </div> 
+        </nav>
+        <!--Drop Down From Button-->
+        <nav class="navBar2">
+            <ul class="profileMenu">
+                <li>Tell Your Story</li>
+                <li>Tap In</li>
+                <li>Topics</li>
+                <li>For You</li>
+                <li>Stats</li>
+                <li>Acount Settings</li>
+                <li>Settings</li>
+                <li>Help</li>
+                <li>Sign up/Sign Out</li>
+            </ul>
+        </nav>   
+        
+        <main>
+
+        <header>
+            <div class="navHeader">
+                <div class="headerLinks">
+                    <div class="slideButton">News</div>
+                    <div class="slideButton">Topics</div>
+                    <div class="slideButton">Reach</div>
+                </div>
+            </div>
+            <div class="slideContainer">
+                <!--Fetch Articles From Api-->
+                <div  class="news">
+                    News Articles
+                </div>
+                <!--Create Flow Map But Turn Off Click Events-->
+                <div class="topics">
+                    Hot Topics Flow Map
+                </div>
+                <!--Create Reach Interface Page (slide within slide with navigation buttons)-->
+                <img src="https://themeisle.com/blog/wp-content/uploads/2018/06/fireshot_002.png" alt="Reach Page Image">
+            </div>
+        </header>
+        <section>
+            <nav class="artNav">
+                <button class="srtButton"></button>
+                <ul>
+                    <li>Today</li>
+                    <li>Week</li>
+                    <li>Week</li>
+                    <li>Week</li>
+                </ul>
+            </nav>
+            <div class="artContainer">
+                <div class="artHeader">
+                    <h1 class="artQuote">"Ain't nothin' to it but to do it baby"</h1>
+                    <p class="artTitle">
+                        From Culinary Engineer to Software Engineer
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facere repudiandae ex atque asperiores delectus temporibus earum assumenda quis, velit, perspiciatis consectetur nemo optio quas deleniti ea labore quo omnis.
+                    </p>
+                </div>
+            </div>
+        </section>
+        </main>
+
+        <footer>
+            <span class="col-1">feedback</span>
+            <span class="col-1">privacy</span>
+            <span class="col-1">legal</span>
+            <span class="col-2">contact</span>
+            <span class="col-2">sign up</span>
+            <span class="col-2">faqs</span>
+            <span class="col-3">git</span>
+            <span class="col-3">linkedIn</span>
+            <span class="col-3">portfolio</span>
+            <span class="col-3">rate this project</span>
+        </footer>
+
+        </body>
+        <script src="Bnoice.js"></script>
+</html>
