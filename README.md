@@ -11,14 +11,24 @@ Week One - Front-End - [HTML, CSS, VANILLA JAVASCRIPT]
                                       # Front-End-10x10
                                       
  | NavBar | 
+
  | Image Slider | 
+
  | Buttons | 
+
  | Grid Layouts | 
+
  | Tables | 
+
  | Message Module | 
+
  | ScrollBars |
+
  | Color Themes | 
+
  | Forms | 
+
  | Svg Paths |
+
  
  Total of 100 'things' to add to a portfolio module 
