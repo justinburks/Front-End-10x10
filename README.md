@@ -10,7 +10,7 @@ Week One - Front-End - [HTML, CSS, VANILLA JAVASCRIPT]
 
                                       # FRONT-END-10x10
                                       
- | NavBar | |
+ | NavBar | | |
 
  | Image Slider | 
 
