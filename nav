@@ -99,5 +99,223 @@
         </footer>
 
         </body>
+        <style>
+        /* DEFAULT SETTINGS */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow-x: hidden;
+    overflow-y: none;
+}
+
+body {
+    overflow: hidden;
+}
+
+main {
+    overflow: auto;
+}
+
+/* DEFAULT DIMENSIONS */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: #f5f6f9;
+
+}
+
+/* MAIN NAV BAR */
+
+.navBar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    background: #f5f6f9;
+}
+
+.navBar img {
+    position: relative;
+    display: inline-block;
+    height: 1.7rem;
+    width: 1.7rem;
+}
+
+.navigation {
+    width: 67%;
+    display: flex;
+    justify-content: space-around;
+}
+
+            /* ICONS */
+#notifications, #profileContainer {
+    z-index: 2;
+}
+
+.notifications, .profileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.4rem;
+    width: 3.4rem;
+    margin-right: .7rem;
+    background: rgba(51, 51, 51, 0.158);
+    box-shadow: 10px 5px 45px rgb(25 33 67 / 35%);
+
+    border-radius: 50%;
+    z-index: 1;
+
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.4rem;
+    width: 3.4rem;
+    border-radius: 50%;
+    transform: rotate(189deg);
+}
+
+
+            /* SEARCH BAR */
+.searchBar {
+    display: flex;
+    align-items: center;
+}
+.searchInput {
+    width: 20rem;
+    height: 3rem;
+    border-radius: 10rem;
+    background: #333;
+    opacity: 0;
+    transition: all .35s ease-in-out;
+}
+.searchInput.hover {
+    opacity: .27;
+}
+.searchIcon {
+    position: relative;
+    right: 0;
+    z-index: 10;
+    transform: translateX(19rem);
+}
+#searchIcon {
+    width: 2rem;
+    height: 2rem;
+}
+
+        /* PROFILE NAV */
+
+.navBar2 {
+    position: absolute;
+    right: .5rem;
+    top: 12%;
+    background: rgba(51, 51, 51, 0.9);
+    opacity: 0;
+    color: white;
+    transform: translateX(100%),
+               scaleY(0);
+    pointer-events: none;
+    transition: all .25s ease-in-out;
+    z-index: 10;
+    
+}
+.navBar2::after {
+    /* Make a triangle connector */
+}
+.navBar2.active {
+    pointer-events: all;
+    opacity: .9;
+    transform: translatey(0),
+               scale(1);
+}
+
+
+/* MAIN CONTENT */
+
+
+header {
+    position: relative;
+    display: grid;
+    height: 90%;
+    width: 100%;
+    background: #f5f6f9;
+}
+
+header {
+    overflow: hidden;
+}
+
+section {
+    position: relative;
+    display: grid;
+    height: 100%;
+    width: 100vw;
+    background: #f5f6f9;
+}
+
+footer {
+    border-top: rgb(201, 208, 216);;
+    position: relative;
+    color: black;
+    display: grid;
+    height: 10%;
+    width: 100vw;
+    background: #f5f6f9;
+}
+.news {
+    transform: translateX(-100%);
+}
+
+.topics {
+    transform: translateX(100%)
+}
+
+  /* HEADER */
+
+
+header nav {
+    display: flex;
+}
+
+.slideContainer {
+    display: grid;
+}
+
+.navHeader {
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.headerLinks {
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    left: 40%;
+}
+
+
+</style>
         <script src="Bnoice.js"></script>
 </html>
