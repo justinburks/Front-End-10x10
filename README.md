@@ -30,5 +30,8 @@ Week One - Front-End - [HTML, CSS, VANILLA JAVASCRIPT]
 
  | Svg Paths |
 
- 
- Total of 100 'things' to add to a portfolio module 
+
+
+__________________________________________________________________________________________ 
+
+Total of 100 'things' to add to a portfolio module 
