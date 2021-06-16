@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="slideModule">
+        <div class="slider slider0 currentSlider" data-slider="0" data-name="projects">
+            <div class="slide slide0 currentSlide" data-position="0" data-name="projects">
+                <div class="card" data-slot="0" data-name="projects">
+                i am card 1 of slider 1 this is slide 1   
+                </div>
+                <div class="card" data-slot="1" data-name="projects">
+                i am card 2 of slider 1 this is slide 1   
+                </div>
+                <div class="card" data-slot="2" data-name="projects">
+                i am card 3 of slider 1 this is slide 1   
+                </div>
+                <div class="card" data-slot="3" data-name="projects">
+                i am card 4 of slider 1 this is slide 1   
+                </div>
+                <div class="card" data-slot="4" data-name="projects">
+                i am card 5 of slider 1 this is slide 1   
+                </div>
+            </div>
+            <div class="slide slide1" data-position="1" data-name="projects">
+                <div class="card" data-slot="0" data-name="projects">
+                i am card 1 of slider 1 this is slide 2   
+                </div>
+                <div class="card" data-slot="1" data-name="projects">
+                i am card 2 of slider 1 this is slide 2   
+                </div>
+                <div class="card" data-slot="2" data-name="projects">
+                i am card 3 of slider 1 this is slide 2   
+                </div>
+                <div class="card" data-slot="3" data-name="projects">
+                i am card 4 of slider 1 this is slide 2   
+                </div>
+                <div class="card" data-slot="4" data-name="projects">
+                i am card 5 of slider 1 this is slide 2   
+                </div>
+            </div>
+            <div class="slide slide2" data-position="2" data-name="projects">
+                <div class="card" data-slot="0" data-name="projects">
+                i am card 1 of slider 1 this is slide 3
+                </div>
+                <div class="card" data-slot="1" data-name="projects">
+                i am card 2 of slider 1 this is slide 3
+                </div>
+                <div class="card" data-slot="2" data-name="projects">
+                i am card 3 of slider 1 this is slide 3
+                </div>
+                <div class="card" data-slot="3" data-name="projects">
+                i am card 4 of slider 1 this is slide 3
+                </div>
+                <div class="card" data-slot="4" data-name="projects">
+                i am card 5 of slider 1 this is slide 3
+                </div>
+            </div>
+        </div>
+        <div class="slider slider1" data-slider="1" data-name="caseStudies">
+            <div class="slide slide0" data-position="0" data-name="caseStudies">
+                <div class="card" data-slot="0" data-name="caseStudies">
+                i am card 1 of slider 2 this is slide 1   
+                </div>                
+                <div class="card" data-slot="1" data-name="caseStudies">
+                i am card 2 of slider 2 this is slide 1   
+                </div>                
+                <div class="card" data-slot="2" data-name="caseStudies">
+                i am card 3 of slider 2 this is slide 1   
+                </div>                
+                <div class="card" data-slot="3" data-name="caseStudies">
+                i am card 4 of slider 2 this is slide 1   
+                </div>                
+                <div class="card" data-slot="4" data-name="caseStudies">
+                i am card 5 of slider 2 this is slide 1   
+                </div>                
+            </div>
+
+            <div class="slide slide1" data-position="1" data-name="caseStudies">
+                <div class="card" data-slot="0" data-name="caseStudies">
+                i am card 1 of slider 2 this is slide 2 
+                </div>                
+                <div class="card" data-slot="1" data-name="caseStudies">
+                i am card 2 of slider 2 this is slide 2 
+                </div>                
+                <div class="card" data-slot="2" data-name="caseStudies">
+                i am card 3 of slider 2 this is slide 2 
+                </div>                
+                <div class="card" data-slot="3" data-name="caseStudies">
+                i am card 4 of slider 2 this is slide 2 
+                </div>                
+                <div class="card" data-slot="4" data-name="caseStudies">
+                i am card 5 of slider 2 this is slide 2 
+                </div>                
+            </div>
+            <div class="slide slide2" data-position="2" data-name="caseStudies">
+                <div class="card" data-slot="0" data-name="caseStudies">
+                i am card 1 of slider 2 this is slide 3   
+                </div>                
+                <div class="card" data-slot="1" data-name="caseStudies">
+                i am card 2 of slider 2 this is slide 3   
+                </div>                
+                <div class="card" data-slot="2" data-name="caseStudies">
+                i am card 3 of slider 2 this is slide 3   
+                </div>                
+                <div class="card" data-slot="3" data-name="caseStudies">
+                i am card 4 of slider 2 this is slide 3   
+                </div>                
+                <div class="card" data-slot="4" data-name="caseStudies">
+                i am card 5 of slider 2 this is slide 3   
+                </div>                
+            </div>
+        
+        </div> 
+        <div class="slider slider2" data-slider="2" data-name="apps">
+            <div class="slide slide0" data-position="0" data-name="apps">
+                <div class="card" data-slot="0" data-name="apps">
+                i am card 1 of slider 3 this is slide  1  
+                </div>                 
+                <div class="card" data-slot="1" data-name="apps">
+                i am card 2 of slider 3 this is slide  1  
+                </div>                 
+                <div class="card" data-slot="2" data-name="apps">
+                i am card 3 of slider 3 this is slide  1  
+                </div>                 
+                <div class="card" data-slot="3" data-name="apps">
+                i am card 4 of slider 3 this is slide  1  
+                </div>                 
+                <div class="card" data-slot="4" data-name="apps">
+                i am card 5 of slider 3 this is slide  1  
+                </div>                 
+            </div>
+            <div class="slide slide1" data-position="1" data-name="apps">
+                <div class="card" data-slot="0" data-name="apps">
+                i am card 1 of slider 3 this is slide 2 
+                </div>                 
+                <div class="card" data-slot="1" data-name="apps">
+                i am card 2 of slider 3 this is slide 2 
+                </div>                 
+                <div class="card" data-slot="2" data-name="apps">
+                i am card 3 of slider 3 this is slide 2 
+                </div>                 
+                <div class="card" data-slot="3" data-name="apps">
+                i am card 4 of slider 3 this is slide 2 
+                </div>                 
+                <div class="card" data-slot="4" data-name="apps">
+                i am card 5 of slider 3 this is slide 2 
+                </div>                 
+            </div>
+            <div class="slide slide2" data-position="2" data-name="apps">
+                <div class="card" data-slot="0" data-name="apps">
+                i am card 1 of slider 3 this is slide 3   
+                </div>                 
+                <div class="card" data-slot="1" data-name="apps">
+                i am card 2 of slider 3 this is slide 3   
+                </div>                 
+                <div class="card" data-slot="2" data-name="apps">
+                i am card 3 of slider 3 this is slide 3   
+                </div>                 
+                <div class="card" data-slot="3" data-name="apps">
+                i am card 4 of slider 3 this is slide 3   
+                </div>                 
+                <div class="card" data-slot="4" data-name="apps">
+                i am card 5 of slider 3 this is slide 3   
+                </div>                 
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="controls">
+        <div class="up button" >^</div>
+        <div class="down button" >v</div>
+        <div class="left button" > -- </div>
+        <div class="right button" >></div>
+    </div>
+</body>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    html {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+    .slideModule {
+        padding: 2rem;
+        position: relative;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        background: black;
+        overflow: hidden;
+    }
+
+    .slider {
+        padding: 2rem;
+        position: absolute;
+        background: red;
+        height: 30%;
+        width: 90vw;
+        display: flex;
+        overflow: hidden;
+        justify-self: center;
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+        transition: all .3s ease;
+        transform: translateY(-300%);
+    }
+    
+    
+    /* when I click up the current slide and the next slide will translate up.... the current slide gets the class of previous */
+    /* or should I translate them separately */
+    /*
+    .slider.currentSlider {
+        transform: translateY(0);
+    }
+    .slider.nextSlider + .slider {
+        transform: translateY(300%);
+    }
+    .slider.nextSlider {
+        transform: translateY(200%);
+    }
+    .slider.prevSlider {
+        transform: translateY(-200%)
+    }
+    */
+    /*  
+        current slide = this
+        next slide = that
+        prev slide = that too
+
+        up() {
+
+            moveSlider() {
+                remove all classes
+                .then
+                next slide.add class current 
+                the one after next slide.add class next
+                current slide.add class prev
+            }
+
+            updateFlags() {
+                rev slide = this
+                current slide = that
+                next slide = the one after that too
+            }
+    }
+    */
+
+    .slide {
+        position: absolute;
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all .3s ease;
+        transform: translateX(-300%)
+    }
+
+
+    .card {
+        position: relative;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        border: 1px solid black;
+        color: white;
+    }
+
+    .controls {
+        position: absolute;
+        height: 125px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        bottom: 0;
+        background: green;
+    }
+    .button {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: yellow;
+        color: red;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        z-index: 10;
+    }
+
+    /*
+    .slide1 {
+        transform: translateX(200%);
+    }
+    
+    .slide2 {
+        transform: translateX(300%);
+    }
+    .slide.nextSlide + .slide {
+        transform: translateX(200%);
+    }
+    */
+
+    
+
+    .slide.nextSlide + .slide {
+        transform: translateX(300%);
+    }
+
+    .slide.prevSlide {
+        z-index: 10;
+        transform: translateX(-200%);
+    }
+
+    .slide.currentSlide {
+        z-index: 10;
+        transform: translateX(0);
+    }
+
+    .slide.nextSlide {
+        transform: translateX(200%);
+    }
+
+
+    .slider.prevSlider {
+        transform: translateY(-200%)
+    }
+
+    .slider.nextSlider + .slider {
+        transform: translateY(300%);
+    }
+    
+    .slider.currentSlider {
+        transform: translate(0);
+    }
+
+    .slider.nextSlider {
+        transform: translateY(200%);
+    }
+
+
+</style>
+
+<script> 
+
+function Slider(slider){
+    if (!(slider instanceof Element)) {
+        throw new Error('No slider passed in');
+    }
+    // create some variables for working with slider
+
+    // select the elements needed for the slider
+    let currentPosition;
+    let currentSlider;
+    let prevSlide;
+    let prevSlider; 
+    let nextSlide;
+    let nextSlider;
+
+    const left = document.querySelector('.left');
+    const right = document.querySelector('.right');
+    const up = document.querySelector('.up');
+    const down = document.querySelector('.down');
+
+    function startSlider() {
+        currentSlider = slider.querySelector('.slider0') || slider.firstElementChild;
+        prevSlider = currentSlider.previousElementSibling || slider.lastElementChild;
+        nextSlider = currentSlider.nextElementSibling || slider.firstElementChild;
+        currentSlide = currentSlider.firstElementChild;
+        prevSlide = currentSlide.previousElementSibling || currentSlider.lastElementChild;
+        nextSlide = currentSlide.nextElementSibling || currentSlider.firstElementChild;
+
+    };
+    
+    function updateVariables() {
+        currentSlide = currentSlider.querySelector('.slide0') || currentSlider.firstElementChild;
+        prevSlide = currentSlide.previousElementSibling || currentSlider.lastElementChild;
+        nextSlide = currentSlide.nextElementSibling || currentSlider.firstElementChild;
+    }
+
+    // when this slider is created run the start slider function -- Constructor
+      
+    /*
+    function removeClasses() {
+            prevSlider.classList.remove('prevSlider');
+            currentSlider.classList.remove('currentSlider');
+            nextSlider.classList.remove('nextSlider');
+    }
+    */
+    function applyClasses() {
+
+            prevSlide.classList.add('prevSlide');
+            currentSlide.classList.add('currentSlide');
+            nextSlide.classList.add('nextSlide');
+
+        prevSlider.classList.add('prevSlider');
+        currentSlider.classList.add('currentSlider');
+        nextSlider.classList.add('nextSlider');
+    };
+
+    function removeSliderClasses(direction) {
+            const classesToRemove = ['prevSlider', 'currentSlider', 'nextSlider'];
+            const classesToRemove2 = ['prevSlide', 'currentSlide', 'nextSlide'];
+            if (direction === 'up' || direction === 'down') {
+                prevSlider.classList.remove(...classesToRemove);
+                currentSlider.classList.remove(...classesToRemove);
+                nextSlider.classList.remove(...classesToRemove);
+                updateVariables();
+            }
+            else if (direction === 'left' || direction === 'right') {
+                prevSlide.classList.remove(...classesToRemove2);
+                currentSlide.classList.remove(...classesToRemove2);
+                nextSlide.classList.remove(...classesToRemove2);
+           }
+        }
+    function move(direction) {
+            
+            direction === 'up' ?
+            [prevSlider, currentSlider, nextSlider] = [currentSlider, nextSlider, nextSlider.nextElementSibling || slider.firstElementChild]: 
+            direction === 'down' ? 
+            [prevSlider, currentSlider, nextSlider] = [prevSlider.previousElementSibling || slider.lastElementChild, prevSlider, currentSlider]: 
+            direction === 'left' ?
+            [prevSlide, currentSlide, nextSlide] = [currentSlide, nextSlide, nextSlide.nextElementSibling || currentSlider.firstElementChild] :
+            direction === 'right' ?
+            [prevSlide, currentSlide, nextSlide] = [prevSlide.previousElementSibling || currentSlider.lastElementChild, prevSlide, currentSlide] :
+            null;
+
+
+            removeSliderClasses(direction)
+            applyClasses();
+    }
+    
+    startSlider();
+    applyClasses();
+
+    up.addEventListener('click', () => move('up'));
+    down.addEventListener('click', () => move('down'));
+    left.addEventListener('click', () => move('left'));
+    right.addEventListener('click', () => move('right'));
+
+}
+
+
+const mainSlider = Slider(document.querySelector('.slideModule'));
+
+// Do it with prototypes with to keep the slide positions constant. may also prevent fast click bugs
+
+</script>
+</html>
